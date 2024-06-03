@@ -1,0 +1,41 @@
+*{
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+.login,.signup{
+    margin: auto;
+}
+form{
+    width :60%;
+    padding: 20px;
+    margin: auto;
+
+}
+input{
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+    /* height: 20px; */
+    
+}
+input[type|="submit"]{
+    background-color: black;
+    color: white   ;
+    padding: 7px;
+    width: fit-content;
+}
+fieldset{
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.form-error{
+    color: red;
+    padding-top: 0;
+    margin-top: 0;
+}
